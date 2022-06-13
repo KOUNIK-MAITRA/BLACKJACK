@@ -1,0 +1,125 @@
+
+
+.container-1
+{
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 100vh;   
+    background:rgb(0, 0, 0);  
+    color: white;  
+    
+}
+
+.flex-blackjack-row-1
+{ 
+     height: 46vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    padding: 5%;
+    justify-content: space-around;
+    background: radial-gradient(rgb(1, 87, 1),rgb(2, 53, 2));   
+    color: floralwhite;
+    text-shadow: 3px 2px 8px rgb(4, 153, 4);
+    
+}
+
+
+
+.flex-blackjack-row-1 div
+{  
+     border: 2px solid rgba(3, 82, 3, 0.664) ;
+    box-shadow: 5px 5px 5px rgb(1, 34, 1);
+    padding: 1%;
+   
+    text-align: center;
+    margin-right: 1%;
+    flex: 1;
+}
+
+.flex-blackjack-row-2
+{  
+      /* height: 15vh; */
+     
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    padding: 5%;
+    justify-content: space-around; 
+    background: radial-gradient(rgb(0, 63, 0),rgb(1, 37, 1));     
+    
+}
+
+.flex-blackjack-row-2 button
+{    
+     width: auto;
+     padding: 18px;
+     margin: 3px; 
+     margin-top: -10px;
+     margin-bottom: 10px;  
+     box-shadow: 3px 3px 4px rgb(1, 1, 39);
+     
+    
+}
+
+.flex-blackjack-row-3
+{    
+    height: 33vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 5%;
+    justify-content: space-around;
+    background: radial-gradient( rgb(231, 145, 32),rgb(90, 36, 5));
+    color: rgb(58, 34, 2);
+    height: 30vh;
+   
+}
+
+table,th,td
+{  
+     border: 2px solid black;
+    padding: 10px;
+    
+}
+
+table
+{ 
+    width: 85%;
+    height: 80%;
+    color: rgb(231, 203, 165);
+  box-shadow: 2px 2px 8px black;
+}
+
+.btn-primary
+{
+  background: linear-gradient(rgb(50, 50, 236),rgb(2, 2, 44));
+}
+
+.btn-warning
+{
+    background: linear-gradient(rgb(206, 202, 7), orange);
+}
+.btn-danger
+{
+    background: linear-gradient(rgb(177, 2, 2),rgb(63, 2, 2));
+}
+
+.rules-outer
+{   border-top: 4px solid whitesmoke;
+    width: 100%;
+  
+   
+    
+   
+    
+}
+
+.rules{
+    background: linear-gradient(rgb(37, 35, 35),black);
+    color: white;
+    padding: 2rem;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
